@@ -1,0 +1,4 @@
+<input type="text" [(ngModel)]="city">
+<input type="button" [value]="WeatherText" (click)="getWeather()">
+
+<app-weather *ngIf="weather !== undefined" [weather]="weather"></app-weather>

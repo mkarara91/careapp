@@ -1,0 +1,32 @@
+<table class="weather-table">
+  <tbody>
+    <tr>
+      <td>
+        City name:
+      </td>
+      <td>
+        {{weather.name}}
+      </td>
+    </tr>
+    <tr>
+      <td>Temperature:</td>
+      <td>{{weather.main.temp}}</td>
+      <td>Weather:</td>
+      <td>{{weather.weather[0].main}}</td>
+    </tr>
+    <tr>
+      <td>
+        Humidity:
+      </td>
+      <td>
+        {{weather.main.humidity}}
+      </td>
+      <td>
+        Pressure:
+      </td>
+      <td>
+        {{weather.main.pressure}}
+      </td>
+    </tr>
+  </tbody>
+</table>
